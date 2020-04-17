@@ -8,6 +8,7 @@ import 'bulma/css/bulma.css';
 import './styles.scss';
 
 const store = createStore(rootReducer)
+console.log('store', store)
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(
@@ -16,4 +17,3 @@ ReactDOM.render(
     </Provider>, 
     rootElement
 );
- 
